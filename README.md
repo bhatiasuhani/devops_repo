@@ -41,4 +41,6 @@ svn log
 svn status  
 
 # Step 7: Get repository details  
-svn info  
+svn info
+
+
