@@ -43,4 +43,55 @@ svn status
 # Step 7: Get repository details  
 svn info
 
+# Step 1: Initialize a new Mercurial repository  
+hg init my_hg_repo  
+cd my_hg_repo  
+
+# Step 2: Create a file and add it to version control  
+echo "Hello Mercurial" > file.txt  
+hg add file.txt  
+
+# Step 3: Commit the changes  
+hg commit -m "Initial commit"  
+
+# Step 4: View commit history  
+hg log  
+
+# Step 5: Check repository status  
+hg status  
+
+# Step 6: Get repository details  
+hg summary  
+
+
+# Step 1: Initialize a new Git repository  
+git init  
+
+# Step 2: Add files to the repository  
+git add README.md Suhani_500105647_assignment1_devops.pdf  
+
+# Step 3: Commit the changes  
+git commit -m "Initial commit"  
+
+# Step 4: Connect to GitHub repository  
+git remote add origin https://github.com/your-github-username/your-repo.git  
+
+# Step 5: Rename the default branch to main  
+git branch -M main  
+
+# Step 6: Push changes to GitHub  
+git push -u origin main  
+
+# Step 7: View commit history  
+git log  
+
+# Step 8: Check repository status  
+git status  
+
+# Step 9: Get repository details  
+git remote -v  
+
+
+
+
 
